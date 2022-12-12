@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-* {
-  background-color: silver;
-
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -11,6 +12,9 @@ header {
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: silver;
+    position: fixed;
+    width: 100%;
 
 }
 
