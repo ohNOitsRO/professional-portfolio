@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    box-sizing: border-box; 
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
 
 body {
     background-image: url("../images/background.jpg");
@@ -21,19 +34,26 @@ header {
 h1 {
     display: flex;
     color: rgb(226, 14, 14);
-    text-align: left;
     line-height: 40px;
     font-size: 48px;
-    flex-basis: 80%;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-a {
+.top-links {
+    display: flex;
     margin-left: auto;
     font-size: 18px;
-    max-width: 150px;
+    justify-content: space-between;
 
+}
+
+a {
+  margin-right: 25px;
+}
+
+main {
+  padding-top: 150px;
 }
 
 .page-title{
