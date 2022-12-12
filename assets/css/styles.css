@@ -1,32 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
   background-color: silver;
 
 }
 
-h1 {
-  color: rgb(226, 14, 14);
-  display: inline-block;
-  justify-content: left;
-  text-align: left;
-  line-height: 1.5px;
-  font-size: 48px;
-  max-width: 150px;
-  flex-wrap: flex;
-
+header {
+    border: 5px solid black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-header {
-    border: 6px solid black;
-    padding: 8px;
-
-  }
+h1 {
+    display: flex;
+    color: rgb(226, 14, 14);
+    text-align: left;
+    line-height: 40px;
+    font-size: 48px;
+    flex-basis: 80%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
 a {
-    display: inline-block;
+    margin-left: auto;
     font-size: 18px;
-    flex-wrap: wrap;
-    justify-content: right;
     max-width: 150px;
 
+}
+
+.page-title{
+ margin-top: 8px;
+ font-size: 30px;
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+ font-weight: bold;
+
+}
+
+.my-projects{
+    margin-top: 50px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
 }
