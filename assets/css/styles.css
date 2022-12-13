@@ -22,7 +22,7 @@ header {
     font-family: 'Roboto', sans-serif;
     background-color: silver;
     position: fixed;
-    width: 100%;
+    width: calc(100% - 16px);
 
 }
 
@@ -49,15 +49,36 @@ a {
 
 main {
   padding-top: 150px;
+
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.profilepic{
+  display: flex;
+  height: 350px;
+  width: auto;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  box-shadow: -10px 10px 8px rgb(195, 124, 216);
+  margin-left: 80px;
+
 }
 
 .page-title{
- margin-top: 8px;
+ margin-top: 30px;
  font-size: 30px;
  font-family: 'Roboto', sans-serif;
- text-align: center;
+ text-align: left;
  font-weight: bold;
-
+ display: flex;
+ flex-wrap: wrap;
+ margin-right: 400px;
+ 
 }
 
 .my-projects{
