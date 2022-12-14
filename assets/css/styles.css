@@ -23,7 +23,6 @@ header {
     background-color: silver;
     position: fixed;
     width: calc(100% - 16px);
-
 }
 
 h1 {
@@ -40,22 +39,20 @@ h1 {
     margin-left: auto;
     font-size: 18px;
     justify-content: space-between;
-
+    font-weight: 600;
 }
 
-a {
+.top-links a {
   margin-right: 25px;
 }
 
 main {
   padding-top: 150px;
-
 }
 
 .mainContainer{
     display: flex;
     justify-content: space-around;
-
 }
 
 .profilepic{
@@ -66,7 +63,6 @@ main {
   flex-wrap: wrap;
   box-shadow: -10px 10px 8px rgb(195, 124, 216);
   margin-left: 80px;
-
 }
 
 .page-title{
@@ -79,19 +75,41 @@ main {
  flex-wrap: wrap;
  margin-right: 400px;
  line-height: 100px;
- 
 }
 
 .my-projects{
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 26px;
     text-align: center;
     font-weight: bold;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.projectNames {
+    margin-top: 75px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
 }
 
 .workInProgress{
-    height: 300px;
+    height: 300px; 
+    box-shadow: 0 0 16px rgb(195, 124, 216);
 
+}
+
+.contactMe {
+    margin-top: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contactImages {
+    box-shadow: 0 0 16px rgb(195, 124, 216);
+    height: 60px;
 }
