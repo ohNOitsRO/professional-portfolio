@@ -8,20 +8,16 @@ html, * {
 }
 
 body {
-    /* background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-attachment: fixed; */
-    background-color: #16161a;
+    background: rgb(22,22,26);
+    background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%);
 }
 
 header {
-    /* background-image: linear-gradient(#7f5af0, #16161a);
-    border: 5px solid black; */
     padding: 8px;
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    background-color: #16161a;
+    background-color: rgb(22, 22, 26, 0);
     position: fixed;
     width: calc(100%);
     margin: -8px;
@@ -83,25 +79,28 @@ main {
 
 .my-projects{
     display: flex;
-    margin-top: 30px;
     font-size: 26px;
     text-align: center;
     font-weight: bold;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .projectNames {
     margin-top: 75px;
     font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
+    color: #fffffe;
+}
+
+.enlarge {
+    flex-grow: 2;
 }
 
 .workInProgress{
     height: 300px; 
-    box-shadow: 0 0 16px rgb(195, 124, 216);
+    /* box-shadow: 0 0 16px rgb(195, 124, 216); */
 
 }
 
@@ -109,11 +108,12 @@ footer {
     margin-top: 70px;
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 
 }
 
 .contactImages {
-    box-shadow: 0 0 16px rgb(195, 124, 216);
+    /* box-shadow: 0 0 16px rgb(195, 124, 216); */
     height: 60px;
 }
