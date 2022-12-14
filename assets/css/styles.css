@@ -8,26 +8,28 @@ html, * {
 }
 
 body {
-    background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #16161a;
 }
 
 header {
-    background-image: linear-gradient(#9c005d, rgb(168, 168, 168));
-    border: 5px solid black;
+    /* background-image: linear-gradient(#7f5af0, #16161a);
+    border: 5px solid black; */
     padding: 8px;
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    background-color: silver;
+    background-color: #16161a;
     position: fixed;
-    width: calc(100% - 16px);
+    width: calc(100%);
+    margin: -8px;
 }
 
 h1 {
     display: flex;
-    color: rgb(0, 0, 0);
+    color: #fffffe;
     line-height: 40px;
     font-size: 48px;
     margin-top: 8px;
@@ -44,6 +46,7 @@ h1 {
 
 .top-links a {
   margin-right: 25px;
+  color: #fffffe;
 }
 
 main {
@@ -61,7 +64,7 @@ main {
   width: auto;
   border: 2px solid black;
   flex-wrap: wrap;
-  box-shadow: -10px 10px 8px rgb(195, 124, 216);
+  box-shadow: -10px 10px 8px #7f5af0;
   margin-left: 80px;
 }
 
@@ -75,6 +78,7 @@ main {
  flex-wrap: wrap;
  margin-right: 400px;
  line-height: 100px;
+ color: #94a1b2;
 }
 
 .my-projects{
