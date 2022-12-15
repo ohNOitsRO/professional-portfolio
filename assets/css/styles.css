@@ -123,7 +123,7 @@ footer {
     height: 60px;
 }
 
- /* Media Query for Mobile Devices */
+ /* Media Query for Phones, Tablets, and Laptop/PCs */
 
  @media (max-width: 375px) {
     .top-links {
