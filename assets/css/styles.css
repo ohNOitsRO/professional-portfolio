@@ -131,7 +131,7 @@ footer {
 }
 }
 
- @media ((min-width: 376px) and (max-width: 480px)) {
+ @media (min-width: 376px) and (max-width: 480px) {
     .top-links {
         font-size: 14px;
     }
@@ -181,3 +181,35 @@ footer {
      
 }
 }
+
+@media (min-width: 768px) and (max-width: 1265px){
+    .profilepic {
+       margin: auto;
+    }
+
+    .page-title {
+        margin: auto;
+        text-align: center;    
+}
+}
+
+@media (min-width: 1266px) and (max-width:1615px){
+    .profilepic {
+        margin: auto;
+
+    }
+
+   .page-title {
+        font-size: 26px;
+    margin-right: auto;
+
+}
+}
+
+@media (min-width:1666px){
+
+    .page-title {
+         margin-right: 200px;
+
+}
+ }
