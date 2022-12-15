@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*  Global Page Elements  */
+
 html, * {
     box-sizing: border-box; 
 }
@@ -11,6 +14,8 @@ body {
     background: rgb(22,22,26);
     background: linear-gradient(0deg, rgba(22,22,26,1) 0%, rgba(127,90,240,1) 94%, rgba(127,90,240,1) 100%);
 }
+
+/*  Header  */
 
 header {
     padding: 8px;
@@ -32,6 +37,8 @@ h1 {
     margin-bottom: 8px;
 }
 
+/*  Header Helper Classes  */
+
 .top-links {
     display: flex;
     margin-left: auto;
@@ -45,6 +52,8 @@ h1 {
   color: #fffffe;
 }
 
+/*  Main  */
+
 main {
   padding-top: 150px;
 }
@@ -54,6 +63,8 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/*  About Me Section  */
 
 .profilepic{
   display: flex;
@@ -77,6 +88,8 @@ main {
  line-height: 65px;
  color: #94a1b2;
 }
+
+/*  Projects Section  */
 
 .my-projects{
     display: flex;
@@ -104,9 +117,10 @@ flex-grow: 1;
 
 .workInProgress{
     height: 300px; 
-    /* box-shadow: 0 0 16px rgb(195, 124, 216); */
 
 }
+
+/*  Footer  */
 
 footer {
     margin-top: 70px;
@@ -119,12 +133,14 @@ footer {
     
 }
 
+/*  Footer Helper Classes  */
+
 .contactImages {
-    /* box-shadow: 0 0 16px rgb(195, 124, 216); */
     height: 60px;
 }
 
- /* Media Query for Phones, Tablets, and Laptop/PCs */
+
+ /*  Media Query for Phones, Tablets, and Laptop/PCs  */
 
  @media (max-width: 375px) {
     .top-links {
@@ -185,7 +201,7 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1265px){
     .profilepic {
-       margin: auto;
+        margin: auto;
     }
 
     .page-title {
@@ -200,17 +216,16 @@ footer {
 
     }
 
-   .page-title {
+    .page-title {
         font-size: 26px;
-    margin-right: auto;
+        margin-right: auto;
 
 }
 }
 
 @media (min-width:1666px){
-
     .page-title {
-         margin-right: 200px;
+        margin-right: 200px;
 
 }
- }
+}
